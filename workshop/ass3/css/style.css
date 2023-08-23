@@ -1,0 +1,31 @@
+.container{
+    width: 75%;
+    height: 85%;
+    
+    border: 2px solid black;
+    margin: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+   
+}
+
+.title{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+  
+}
+.navbar{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+    background-color: white;
+    
+}
+

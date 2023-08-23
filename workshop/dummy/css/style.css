@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.board{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 400px;
+    /* gap: 0px; */
+}
+
+.black{
+    background-color: #b58863;
+    height: 100px;
+    width: 100px;
+}
+
+.white{
+    background-color: #f0b9b5;
+    height: 100px;
+    width: 100px;
+}

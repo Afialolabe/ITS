@@ -27,7 +27,7 @@
 
 #Head_may{
     margin-left: 50px;
-    margin-right: 180px;
+    margin-right: 220px;
     font-size: 30px;
     text-decoration: none;
     color: blue;
@@ -38,7 +38,7 @@ button{
     color: white;
     padding: 15px;
     border-radius: 3px;
-    margin-left: 120px;
+    margin-left: 200px;
     border-style: none;
     cursor: hover;
     margin-left: 150px;
@@ -56,12 +56,12 @@ button:hover{
 }
 
 .imagebody{
-    background-color:red;
-    background-image:linear-gradient(45deg,blue,red);
+     background-color:red; 
+     background-image:linear-gradient(45deg,blue,red); 
     height: 500px;
 }
 
-#headtext{
+#head_text{
     position: absolute;
     top: 100px;
     font-size: 220px;
@@ -88,3 +88,180 @@ button:hover{
     font-size: 10px;
     letter-spacing: 5px;
 }
+
+.services{
+    background-color:rgba(128, 128, 128, 0.11);
+    align-items: center;
+    
+}
+
+.services_head h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    background: -webkit-linear-gradient(90deg,blue,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+}
+
+.services_head p{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 80px;
+}
+.service-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.image_box{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-left: -120px;
+
+
+}
+.icon-box{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: white;
+}
+.icon{
+    max-width: 80%;
+    height: 100px;
+    width: 100px;
+   
+}
+.history{
+    background-color:red;
+    background-image:linear-gradient(90deg,blue,red);
+    position: relative;
+}
+
+.history img{
+    max-width: 100%;
+    background-position: center;
+    height: 500px;
+    opacity: 50%;
+}
+.history_box{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 200px;
+    position: absolute;
+    top:80px;
+    
+}
+.history_text{
+    color: white;
+    margin-left: 80px;
+    font-family:'Times New Roman', Times, serif;
+}
+.history_text h1{
+    font-size: 2.4em;
+    word-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+#saved_where{
+    margin-top: 40px;
+    align-self: start;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+    border-style: none;
+    cursor: hover;
+    margin-left: 0px;
+    margin-bottom: 30px;
+
+
+}
+#saved_where:hover{
+    border: 1px solid black;
+}
+.history_slides{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px
+
+}
+
+.history_slides .box{
+    background-color: rgba(128, 128, 128, 0.493);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+.history_slides .box:hover{
+    border: 1px solid black;
+    max-width: 120%;
+ 
+}
+.history_slides .box h1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.partner{
+    background-color:rgba(128, 128, 128, 0.199);
+
+}
+.partner_head{
+    text-align: center;
+    background: -webkit-linear-gradient(90deg,blue,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.6em;
+    margin-bottom: 20px;
+}
+.partner_badge{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    gap:8px;
+    margin-left: 80px;
+}
+.badge{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 200px;
+}
+.partner .news{
+    text-align: left;
+    margin-left: 80px;
+}
+.news_box{
+    display: grid;
+    grid-template-columns:300px 300px 300px;
+    gap:10px;
+    margin-left: 80px;
+}
+.box_n{
+    background-color: white;
+}
+.box_n h1,p,a{
+    margin-left: 20px;
+}
+.box_n img{
+    max-width: 100%;
+    height:200px ;
+}
+

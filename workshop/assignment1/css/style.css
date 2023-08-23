@@ -1,0 +1,22 @@
+body{
+    background-color: whitesmoke;
+}
+
+.navbar{
+    background-color: yellow;
+    margin-right: 15px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content:flex-start; 
+}
+
+.items{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.items a{
+    padding: 20px;
+}
